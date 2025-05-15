@@ -1,0 +1,26 @@
+[project]
+name = "odsc-east-2025"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "chromadb>=0.6.3",
+    "docling>=2.32.0",
+    "faiss-cpu>=1.11.0",
+    "langchain>=0.3.25",
+    "langchain-chroma>=0.2.2",
+    "langchain-community>=0.3.21",
+    "langchain-core>=0.3.59",
+    "langchain-docling>=0.2.0",
+    "langchain-huggingface>=0.2.0",
+    "langchain-openai>=0.3.16",
+    "langchain-text-splitters>=0.3.8",
+    "openai>=1.78.1",
+    "pandas>=2.2.3",
+    "pypdf>=5.5.0",
+    "python-dotenv>=1.1.0",
+    "sentence-transformers>=4.1.0",
+    "streamlit>=1.45.1",
+    "watchdog>=6.0.0",
+]
